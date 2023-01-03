@@ -3,7 +3,7 @@ import HeroSection from '../components/HeroSection';
 
 export default function Home() {
 	return (
-		<div className='homePage'>
+		<div className='min-h-screen'>
 			<Navbar />
 			<HeroSection />
 		</div>
