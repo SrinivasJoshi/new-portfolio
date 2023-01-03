@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 export default function Navbar() {
@@ -40,16 +41,16 @@ export default function Navbar() {
 						}`}>
 						<ul className='text-lg md:text-xl items-center font-kalam justify-center space-y-5 md:flex md:space-x-12 md:space-y-0'>
 							<li>
-								<a href='#home'>Home</a>
+								<Link href='#home'>Home</Link>
 							</li>
 							<li>
-								<a href='#about'>About</a>
+								<Link href='#about'>About</Link>
 							</li>
 							<li>
-								<a href='#work'>Work</a>
+								<Link href='#work'>Work</Link>
 							</li>
 							<li>
-								<a href='#contact'>Contact</a>
+								<Link href='#contact'>Contact</Link>
 							</li>
 						</ul>
 					</div>
