@@ -10,8 +10,8 @@ const Projects = () => {
 			tag: '#WEB3',
 			description:
 				'Discover music-based NFTs with our marketplace! Destination for artists and music fans to buy, sell, and listen to music.',
-			github_url: 'some_url',
-			site_url: 'some_site_url',
+			github_url: 'https://github.com/SrinivasJoshi/Music-NFTs',
+			site_url: 'https://music-nfts-ruby.vercel.app/',
 		},
 		{
 			id: 2,
@@ -20,8 +20,8 @@ const Projects = () => {
 			tag: '#WEB3',
 			description:
 				'Get your hands on a limited edition, animated NFT based on your zodiac sign! Each NFT features a unique animation',
-			github_url: 'some_url',
-			site_url: 'some_site_url',
+			github_url: 'https://github.com/SrinivasJoshi/cosmo-nfts',
+			site_url: 'https://cosmo-nfts.vercel.app/',
 		},
 		{
 			id: 3,
@@ -30,8 +30,8 @@ const Projects = () => {
 			tag: '#AI',
 			description:
 				'Spice up your vocabulary and avoid overusing the word "very."Use of OpenAI’s API along with react.js for frontend.',
-			github_url: 'some_url',
-			site_url: 'some_site_url',
+			github_url: 'https://github.com/SrinivasJoshi/loseTheVery',
+			site_url: 'https://lose-the-very.netlify.app/',
 		},
 		{
 			id: 4,
@@ -40,8 +40,8 @@ const Projects = () => {
 			tag: '#DSA',
 			description:
 				'A tool that allows users to visualise and understand how different sorting algorithms work.Built using vanilla JS.',
-			github_url: 'some_url',
-			site_url: 'some_site_url',
+			github_url: 'https://github.com/SrinivasJoshi/sorting-visualizer',
+			site_url: 'https://sorting-visualiser1.netlify.app/',
 		},
 		{
 			id: 5,
@@ -50,8 +50,8 @@ const Projects = () => {
 			tag: '#WEB2',
 			description:
 				'This is one of my first JS project.Users are presented with a RGB value along with colored tiles,they must match the square with the correct RGB value.',
-			github_url: 'some_url',
-			site_url: 'some_site_url',
+			github_url: 'https://github.com/SrinivasJoshi/color-game',
+			site_url: 'https://colorgame1212.netlify.app/',
 		},
 		{
 			id: 6,
@@ -60,8 +60,8 @@ const Projects = () => {
 			tag: '#WEB3',
 			description:
 				'A decentralized application that allows users to lock up their MATIC for a certain period of time. The app uses smart contracts enforce the time lock.',
-			github_url: 'some_url',
-			site_url: 'some_site_url',
+			github_url: 'https://github.com/SrinivasJoshi/timelock',
+			site_url: 'https://timelock-three.vercel.app/',
 		},
 	];
 	return (
