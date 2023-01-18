@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
 	return (
-		<section>
+		<section id='about'>
 			<div
 				className='flex flex-col justify-evenly py-10 items-center text-center'
 				id='#about'>

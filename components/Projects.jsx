@@ -65,7 +65,9 @@ const Projects = () => {
 		},
 	];
 	return (
-		<section className='mt-10 flex flex-col justify-evenly min-h-screen items-center'>
+		<section
+			id='work'
+			className='mt-10 flex flex-col justify-evenly min-h-screen items-center'>
 			<div className='flex flex-col justify-evenly items-center mb-10'>
 				<img
 					src='/images/undraw_code.svg'
@@ -75,7 +77,7 @@ const Projects = () => {
 				<h2 className='text-2xl font-kalam'>My Projects</h2>
 			</div>
 
-			<div className='grid grid-cols-3 gap-8 w-4/5'>
+			<div className='grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-12 w-4/5'>
 				{web3Projects.map((project) => {
 					return (
 						<Card
