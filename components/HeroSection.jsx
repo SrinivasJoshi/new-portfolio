@@ -20,6 +20,8 @@ export default function HeroSection() {
 				<p className='w-full md:w-3/5 md:text-base text-sm md:text-left text-center'>
 					I’m a FrontEnd Developer specializing in building (and occasionally
 					designing) exceptional web applications, and everything in between.
+					<br />
+					Down the Web3 Rabbit Hole!
 				</p>
 				<a
 					href='#contact'

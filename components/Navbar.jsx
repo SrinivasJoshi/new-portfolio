@@ -47,6 +47,9 @@ export default function Navbar() {
 								<Link href='#about'>About</Link>
 							</li>
 							<li>
+								<Link href='https://medium.com/@srinivasjoshi66'>Blog</Link>
+							</li>
+							<li>
 								<Link href='#work'>Work</Link>
 							</li>
 							<li>

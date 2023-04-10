@@ -45,13 +45,13 @@ const Projects = () => {
 		},
 		{
 			id: 5,
-			name: 'Guess the color',
+			name: 'TravelGPT',
 			image: '/images/project-images/5.png',
-			tag: '#WEB2',
+			tag: '#ChatGPT',
 			description:
-				'This is one of my first JS project.Users are presented with a RGB value along with colored tiles,they must match the square with the correct RGB value.',
-			github_url: 'https://github.com/SrinivasJoshi/color-game',
-			site_url: 'https://colorgame1212.netlify.app/',
+				'Experience the ultimate travel planning tool with our website to create customized travel itineraries, powered by ChatGPT.',
+			github_url: 'https://github.com/SrinivasJoshi/travelGPT',
+			site_url: 'https://travel-gpt-srinivasjoshi.vercel.app/',
 		},
 		{
 			id: 6,
