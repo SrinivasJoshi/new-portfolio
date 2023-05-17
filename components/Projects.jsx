@@ -55,13 +55,13 @@ const Projects = () => {
 		},
 		{
 			id: 6,
-			name: 'Time Lock Contract',
+			name: 'BIZ Token+Faucet+Burner',
 			image: '/images/project-images/6.png',
 			tag: '#WEB3',
 			description:
-				'A decentralized application that allows users to lock up their MATIC for a certain period of time. The app uses smart contracts enforce the time lock.',
-			github_url: 'https://github.com/SrinivasJoshi/timelock',
-			site_url: 'https://timelock-three.vercel.app/',
+				'This project is an ERC20 token with a faucet, burner, and Chainlink-powered automated token burning capabilities.',
+			github_url: 'https://github.com/SrinivasJoshi/BizToken',
+			site_url: 'https://biz-token.vercel.app/',
 		},
 	];
 	return (
