@@ -18,10 +18,12 @@ export default function HeroSection() {
 					</h1>
 				</div>
 				<p className='w-full md:w-3/5 md:text-base text-sm md:text-left text-center'>
-					I’m a FrontEnd Developer specializing in building (and occasionally
-					designing) exceptional web applications, and everything in between.
+					I'm a Fullstack Developer who loves building awesome web apps and
+					sometimes even dips into design. I like to cover all the bases and
+					make sure everything is top-notch.
 					<br />
-					Down the Web3 Rabbit Hole!
+					<br />
+					Venturing deep into the Web3 rabbit hole! 🕳️🌐
 				</p>
 				<a
 					href='#contact'

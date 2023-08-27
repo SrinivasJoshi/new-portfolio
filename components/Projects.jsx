@@ -25,13 +25,13 @@ const Projects = () => {
 		},
 		{
 			id: 3,
-			name: 'Lose The “Very”',
+			name: 'BIZ Token+Faucet+Burner',
 			image: '/images/project-images/3.png',
-			tag: '#AI',
+			tag: '#WEB3',
 			description:
-				'Spice up your vocabulary and avoid overusing the word "very."Use of OpenAI’s API along with react.js for frontend.',
-			github_url: 'https://github.com/SrinivasJoshi/loseTheVery',
-			site_url: 'https://lose-the-very.netlify.app/',
+				'This project is an ERC20 token with a faucet, burner, and Chainlink-powered automated token burning capabilities.',
+			github_url: 'https://github.com/SrinivasJoshi/BizToken',
+			site_url: 'https://biz-token.vercel.app/',
 		},
 		{
 			id: 4,
@@ -45,23 +45,23 @@ const Projects = () => {
 		},
 		{
 			id: 5,
-			name: 'TravelGPT',
+			name: 'Mr.Keys',
 			image: '/images/project-images/5.png',
-			tag: '#ChatGPT',
+			tag: '#CLI',
 			description:
-				'Experience the ultimate travel planning tool with our website to create customized travel itineraries, powered by ChatGPT.',
-			github_url: 'https://github.com/SrinivasJoshi/travelGPT',
-			site_url: 'https://travel-gpt-srinivasjoshi.vercel.app/',
+				"I made a cool password manager over the weekend. It's a simple command-line tool that I built using node and express.",
+			github_url: 'https://github.com/SrinivasJoshi/password-manager',
+			site_url: '',
 		},
 		{
 			id: 6,
-			name: 'BIZ Token+Faucet+Burner',
+			name: 'CommitEase',
 			image: '/images/project-images/6.png',
-			tag: '#WEB3',
+			tag: '#ChatGPT',
 			description:
-				'This project is an ERC20 token with a faucet, burner, and Chainlink-powered automated token burning capabilities.',
-			github_url: 'https://github.com/SrinivasJoshi/BizToken',
-			site_url: 'https://biz-token.vercel.app/',
+				'Simple text rewriter chrome extension using chatGPT, just more humanised. Usage : tweets and text like this ;)',
+			github_url: 'https://github.com/SrinivasJoshi/CommitEase',
+			site_url: '',
 		},
 	];
 	return (
