@@ -49,7 +49,7 @@ const Projects = () => {
 			image: '/images/project-images/5.png',
 			tag: '#CLI',
 			description:
-				"I made a cool password manager over the weekend. It's a simple command-line tool that I built using node and express.",
+				'My weekend build,a minimal CLI password manager built using node & express.Try : `npm i mrkeys` ',
 			github_url: 'https://github.com/SrinivasJoshi/password-manager',
 			site_url: '',
 		},
