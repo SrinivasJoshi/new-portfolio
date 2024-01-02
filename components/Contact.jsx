@@ -4,12 +4,14 @@ const Contact = () => {
 	const [email, setEmail] = useState('');
 	const [name, setName] = useState('');
 	const [message, setMessage] = useState('');
+	const [loading, setLoading] = useState(false);
 
 	const sendMessage = () => {
 		if (!email || !message || !name) {
 			alert('Empty input!');
 			return;
 		}
+		setLoading(true);
 		const data = {
 			service_id: process.env.NEXT_PUBLIC_SERVICE_ID,
 			template_id: process.env.NEXT_PUBLIC_TEMPLATE_ID,
@@ -38,6 +40,7 @@ const Contact = () => {
 				alert('Error Occured!');
 			}
 		});
+		setLoading(false);
 	};
 
 	return (
@@ -90,8 +93,9 @@ const Contact = () => {
 			</div>
 			<button
 				onClick={sendMessage}
+				disabled={loading}
 				className='mt-5 border border-wwhite px-3 py-2 w-fit rounded-lg font-kalam font-bold'>
-				Send
+				{loading ? 'Sending...':'Send'}
 			</button>
 		</div>
 	);
